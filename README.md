@@ -33,15 +33,15 @@ It helps track spending, categorize expenses, and view totals in a clean dashboa
 
 install dependencies
 
-bash npm install (or use pnpm install if you prefer pnpm)
+bash 
+npm install 
+(or use pnpm install if you prefer pnpm)
 
 Run the development server
 
-bash npm run dev Open http://localhost:3000 to see the app in your browser.
+npm run dev Open http://localhost:3000 to see the app in your browser.
 
-Build for production
-
-bash npm run build npm run start
+Build for production npm run build npm run start
 
 📂 Project Structure Copy code expense-tracker/ ├── app/ # Next.js app directory │ ├── layout.tsx # Root layout │ ├── page.tsx # Main dashboard page │ └── globals.css # Global styles ├── components/ # Reusable UI components ├── lib/ # Utility functions (e.g., formatCurrency) ├── public/ # Static assets ├── package.json └── README.md
 
